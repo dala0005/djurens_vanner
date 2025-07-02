@@ -6,14 +6,21 @@
   padding: 20px;
   margin: 10px;
   text-align: center;
-  max-width: 250px;
+  width: 250px;
+  height: 450px;
+  
   display:inline-block;
 
 }
 
+.card .card-img{
+  max-height: 95px;
+  max-width: 250px;
+}
+
 .card .card-text{
   overflow-y: auto;
-  max-height: 50px;
+  height: 50px;
   margin-bottom: 10px;
 }
 .card:hover{

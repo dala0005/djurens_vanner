@@ -1,17 +1,16 @@
 import Header from "./Header"
-import Card from "./Card"
+import ListCards from "./ListCards"
 import Footer from "./Footer"
 
 function App() {
 
+  const websiteName = "Nätverk för Sveriges Djurfristäder"
+
   return(
     <>
-      <Header />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Footer />
+      <Header websiteName={websiteName} />
+      <ListCards />
+      <Footer websiteName={websiteName} />
     </>  
   );
 }

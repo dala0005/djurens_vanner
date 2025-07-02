@@ -1,11 +1,10 @@
 
-function Footer(){
+function Footer(props){
 
     return(
         <footer>
             <hr></hr>
-            <p>&copy; {new Date().getFullYear()} Djurens Vänner
-            </p>
+            <p>&copy; {new Date().getFullYear()} {props.websiteName}</p>
         </footer>
     );
 }

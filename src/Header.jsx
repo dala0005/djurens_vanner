@@ -1,9 +1,9 @@
 
-function Header(){
+function Header(props){
 
     return(
         <header>
-            <h1>My Website</h1>
+            <h1>{props.websiteName}</h1>
             <nav>
                 <ul>
                     <li><a href="#">Hem</a></li>
